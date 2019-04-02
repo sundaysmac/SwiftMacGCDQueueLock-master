@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805E0B702252F1330053A2AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E0B6F2252F1330053A2AD /* AppDelegate.swift */; };
+		805E0B722252F1330053A2AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E0B712252F1330053A2AD /* ViewController.swift */; };
+		805E0B742252F1340053A2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805E0B732252F1340053A2AD /* Assets.xcassets */; };
+		805E0B772252F1340053A2AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805E0B752252F1340053A2AD /* Main.storyboard */; };
+		805E0B832252F1350053A2AD /* SwiftMacGCDQueueLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E0B822252F1350053A2AD /* SwiftMacGCDQueueLockTests.swift */; };
+		805E0B8E2252F1350053A2AD /* SwiftMacGCDQueueLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E0B8D2252F1350053A2AD /* SwiftMacGCDQueueLockUITests.swift */; };
+		805E0C6A225333260053A2AD /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E0C69225333260053A2AD /* OperationQueueViewController.swift */; };
+		805E0C6D2253452C0053A2AD /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E0C6B2253452C0053A2AD /* ThirdViewController.swift */; };
+		805E0C70225356BE0053A2AD /* RunLoopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E0C6F225356BE0053A2AD /* RunLoopController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		805E0B7F2252F1350053A2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805E0B642252F1330053A2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805E0B6B2252F1330053A2AD;
+			remoteInfo = SwiftMacGCDQueueLock;
+		};
+		805E0B8A2252F1350053A2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805E0B642252F1330053A2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805E0B6B2252F1330053A2AD;
+			remoteInfo = SwiftMacGCDQueueLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		805E0B6C2252F1330053A2AD /* SwiftMacGCDQueueLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMacGCDQueueLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		805E0B6F2252F1330053A2AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		805E0B712252F1330053A2AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		805E0B732252F1340053A2AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		805E0B762252F1340053A2AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		805E0B782252F1340053A2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805E0B792252F1340053A2AD /* SwiftMacGCDQueueLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftMacGCDQueueLock.entitlements; sourceTree = "<group>"; };
+		805E0B7E2252F1350053A2AD /* SwiftMacGCDQueueLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMacGCDQueueLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805E0B822252F1350053A2AD /* SwiftMacGCDQueueLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMacGCDQueueLockTests.swift; sourceTree = "<group>"; };
+		805E0B842252F1350053A2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805E0B892252F1350053A2AD /* SwiftMacGCDQueueLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMacGCDQueueLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805E0B8D2252F1350053A2AD /* SwiftMacGCDQueueLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMacGCDQueueLockUITests.swift; sourceTree = "<group>"; };
+		805E0B8F2252F1350053A2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805E0C69225333260053A2AD /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
+		805E0C6B2253452C0053A2AD /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		805E0C6F225356BE0053A2AD /* RunLoopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLoopController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805E0B692252F1330053A2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805E0B7B2252F1350053A2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805E0B862252F1350053A2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805E0B632252F1330053A2AD = {
+			isa = PBXGroup;
+			children = (
+				805E0B6E2252F1330053A2AD /* SwiftMacGCDQueueLock */,
+				805E0B812252F1350053A2AD /* SwiftMacGCDQueueLockTests */,
+				805E0B8C2252F1350053A2AD /* SwiftMacGCDQueueLockUITests */,
+				805E0B6D2252F1330053A2AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805E0B6D2252F1330053A2AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805E0B6C2252F1330053A2AD /* SwiftMacGCDQueueLock.app */,
+				805E0B7E2252F1350053A2AD /* SwiftMacGCDQueueLockTests.xctest */,
+				805E0B892252F1350053A2AD /* SwiftMacGCDQueueLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805E0B6E2252F1330053A2AD /* SwiftMacGCDQueueLock */ = {
+			isa = PBXGroup;
+			children = (
+				805E0B6F2252F1330053A2AD /* AppDelegate.swift */,
+				805E0B712252F1330053A2AD /* ViewController.swift */,
+				805E0B732252F1340053A2AD /* Assets.xcassets */,
+				805E0B752252F1340053A2AD /* Main.storyboard */,
+				805E0B782252F1340053A2AD /* Info.plist */,
+				805E0B792252F1340053A2AD /* SwiftMacGCDQueueLock.entitlements */,
+				805E0C69225333260053A2AD /* OperationQueueViewController.swift */,
+				805E0C6B2253452C0053A2AD /* ThirdViewController.swift */,
+				805E0C6F225356BE0053A2AD /* RunLoopController.swift */,
+			);
+			path = SwiftMacGCDQueueLock;
+			sourceTree = "<group>";
+		};
+		805E0B812252F1350053A2AD /* SwiftMacGCDQueueLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				805E0B822252F1350053A2AD /* SwiftMacGCDQueueLockTests.swift */,
+				805E0B842252F1350053A2AD /* Info.plist */,
+			);
+			path = SwiftMacGCDQueueLockTests;
+			sourceTree = "<group>";
+		};
+		805E0B8C2252F1350053A2AD /* SwiftMacGCDQueueLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				805E0B8D2252F1350053A2AD /* SwiftMacGCDQueueLockUITests.swift */,
+				805E0B8F2252F1350053A2AD /* Info.plist */,
+			);
+			path = SwiftMacGCDQueueLockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805E0B6B2252F1330053A2AD /* SwiftMacGCDQueueLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805E0B922252F1350053A2AD /* Build configuration list for PBXNativeTarget "SwiftMacGCDQueueLock" */;
+			buildPhases = (
+				805E0B682252F1330053A2AD /* Sources */,
+				805E0B692252F1330053A2AD /* Frameworks */,
+				805E0B6A2252F1330053A2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMacGCDQueueLock;
+			productName = SwiftMacGCDQueueLock;
+			productReference = 805E0B6C2252F1330053A2AD /* SwiftMacGCDQueueLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		805E0B7D2252F1350053A2AD /* SwiftMacGCDQueueLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805E0B952252F1350053A2AD /* Build configuration list for PBXNativeTarget "SwiftMacGCDQueueLockTests" */;
+			buildPhases = (
+				805E0B7A2252F1350053A2AD /* Sources */,
+				805E0B7B2252F1350053A2AD /* Frameworks */,
+				805E0B7C2252F1350053A2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805E0B802252F1350053A2AD /* PBXTargetDependency */,
+			);
+			name = SwiftMacGCDQueueLockTests;
+			productName = SwiftMacGCDQueueLockTests;
+			productReference = 805E0B7E2252F1350053A2AD /* SwiftMacGCDQueueLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		805E0B882252F1350053A2AD /* SwiftMacGCDQueueLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805E0B982252F1350053A2AD /* Build configuration list for PBXNativeTarget "SwiftMacGCDQueueLockUITests" */;
+			buildPhases = (
+				805E0B852252F1350053A2AD /* Sources */,
+				805E0B862252F1350053A2AD /* Frameworks */,
+				805E0B872252F1350053A2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805E0B8B2252F1350053A2AD /* PBXTargetDependency */,
+			);
+			name = SwiftMacGCDQueueLockUITests;
+			productName = SwiftMacGCDQueueLockUITests;
+			productReference = 805E0B892252F1350053A2AD /* SwiftMacGCDQueueLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805E0B642252F1330053A2AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = cfwf;
+				TargetAttributes = {
+					805E0B6B2252F1330053A2AD = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					805E0B7D2252F1350053A2AD = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 805E0B6B2252F1330053A2AD;
+					};
+					805E0B882252F1350053A2AD = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 805E0B6B2252F1330053A2AD;
+					};
+				};
+			};
+			buildConfigurationList = 805E0B672252F1330053A2AD /* Build configuration list for PBXProject "SwiftMacGCDQueueLock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 805E0B632252F1330053A2AD;
+			productRefGroup = 805E0B6D2252F1330053A2AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805E0B6B2252F1330053A2AD /* SwiftMacGCDQueueLock */,
+				805E0B7D2252F1350053A2AD /* SwiftMacGCDQueueLockTests */,
+				805E0B882252F1350053A2AD /* SwiftMacGCDQueueLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		805E0B6A2252F1330053A2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805E0B742252F1340053A2AD /* Assets.xcassets in Resources */,
+				805E0B772252F1340053A2AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805E0B7C2252F1350053A2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805E0B872252F1350053A2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		805E0B682252F1330053A2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805E0B722252F1330053A2AD /* ViewController.swift in Sources */,
+				805E0B702252F1330053A2AD /* AppDelegate.swift in Sources */,
+				805E0C70225356BE0053A2AD /* RunLoopController.swift in Sources */,
+				805E0C6D2253452C0053A2AD /* ThirdViewController.swift in Sources */,
+				805E0C6A225333260053A2AD /* OperationQueueViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805E0B7A2252F1350053A2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805E0B832252F1350053A2AD /* SwiftMacGCDQueueLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805E0B852252F1350053A2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805E0B8E2252F1350053A2AD /* SwiftMacGCDQueueLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		805E0B802252F1350053A2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805E0B6B2252F1330053A2AD /* SwiftMacGCDQueueLock */;
+			targetProxy = 805E0B7F2252F1350053A2AD /* PBXContainerItemProxy */;
+		};
+		805E0B8B2252F1350053A2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805E0B6B2252F1330053A2AD /* SwiftMacGCDQueueLock */;
+			targetProxy = 805E0B8A2252F1350053A2AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		805E0B752252F1340053A2AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805E0B762252F1340053A2AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		805E0B902252F1350053A2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		805E0B912252F1350053A2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		805E0B932252F1350053A2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftMacGCDQueueLock/SwiftMacGCDQueueLock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9TAGY4CS5R;
+				INFOPLIST_FILE = SwiftMacGCDQueueLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfwf.SwiftMacGCDQueueLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		805E0B942252F1350053A2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftMacGCDQueueLock/SwiftMacGCDQueueLock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9TAGY4CS5R;
+				INFOPLIST_FILE = SwiftMacGCDQueueLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfwf.SwiftMacGCDQueueLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		805E0B962252F1350053A2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9TAGY4CS5R;
+				INFOPLIST_FILE = SwiftMacGCDQueueLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfwf.SwiftMacGCDQueueLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMacGCDQueueLock.app/Contents/MacOS/SwiftMacGCDQueueLock";
+			};
+			name = Debug;
+		};
+		805E0B972252F1350053A2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9TAGY4CS5R;
+				INFOPLIST_FILE = SwiftMacGCDQueueLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfwf.SwiftMacGCDQueueLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMacGCDQueueLock.app/Contents/MacOS/SwiftMacGCDQueueLock";
+			};
+			name = Release;
+		};
+		805E0B992252F1350053A2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9TAGY4CS5R;
+				INFOPLIST_FILE = SwiftMacGCDQueueLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfwf.SwiftMacGCDQueueLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftMacGCDQueueLock;
+			};
+			name = Debug;
+		};
+		805E0B9A2252F1350053A2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9TAGY4CS5R;
+				INFOPLIST_FILE = SwiftMacGCDQueueLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfwf.SwiftMacGCDQueueLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftMacGCDQueueLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		805E0B672252F1330053A2AD /* Build configuration list for PBXProject "SwiftMacGCDQueueLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805E0B902252F1350053A2AD /* Debug */,
+				805E0B912252F1350053A2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805E0B922252F1350053A2AD /* Build configuration list for PBXNativeTarget "SwiftMacGCDQueueLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805E0B932252F1350053A2AD /* Debug */,
+				805E0B942252F1350053A2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805E0B952252F1350053A2AD /* Build configuration list for PBXNativeTarget "SwiftMacGCDQueueLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805E0B962252F1350053A2AD /* Debug */,
+				805E0B972252F1350053A2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805E0B982252F1350053A2AD /* Build configuration list for PBXNativeTarget "SwiftMacGCDQueueLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805E0B992252F1350053A2AD /* Debug */,
+				805E0B9A2252F1350053A2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 805E0B642252F1330053A2AD /* Project object */;
+}
